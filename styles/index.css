@@ -1,0 +1,122 @@
+::selection {
+    background:#f2f2f2;
+    color:#000;
+}
+
+::-moz-selection {
+    background:#f2f2f2;
+    color:#000;
+}
+
+#centerContainer {
+    width: 400px;
+    text-align: left;
+    margin: 0px auto;
+}
+/* https://stackoverflow.com/questions/11088938/is-this-the-best-way-to-make-the-body-max-width-and-centered/11088982 */
+
+.row {
+    width: 391px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+.column1 {
+    width: 40%;
+    text-align: right;
+    position: relative;
+    left: 6px;
+  }
+  
+.column2 {
+    float: left;
+    width: 60%;
+    text-align: left;
+  }
+
+.image-icon {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+/* https://www.webfx.com/blog/web-design/circular-images-css/ for circular image */
+/* https://medium.freecodecamp.org/how-to-use-the-position-property-in-css-to-align-elements-d8f49c403a26 for positioning */
+
+.image-icon a {
+    cursor:crosshair;
+}
+
+.heading {
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    cursor:default;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.heading:hover {
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    color: #b8bf84;
+}
+
+body {
+    margin-top:10px;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+}
+
+a {
+    color: #b8bf84;
+}
+
+a:hover {
+    -webkit-transition: color .2 ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    color: #d1d4b6;
+}
+
+a:visited {
+    -webkit-transition: color .2 ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    color: #aba75d;  
+}
+
+a:hover:visited {
+    -webkit-transition: color .2 ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    color: #b8bf84;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+.image-section a {
+    cursor: help;
+}
+
+.section-style {
+    margin-top: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 2px;
+}

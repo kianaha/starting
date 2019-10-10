@@ -1,0 +1,74 @@
+::selection {
+    background:#f2f2f2;
+    color:#000;
+}
+
+::-moz-selection {
+    background:#f2f2f2;
+    color:#000;
+}
+
+#centerContainer {
+    width: 18%;
+    text-align: left;
+    margin: 0px auto;
+}
+/* https://stackoverflow.com/questions/11088938/is-this-the-best-way-to-make-the-body-max-width-and-centered/11088982 */
+
+.grid-image {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 200px;
+    height: 175px;
+    width: 175px;
+    cursor: help;
+}
+
+body {
+    display: block;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+a {
+    color: #e5b7af;
+}
+
+a:hover {
+    -webkit-transition: color .2 ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    color: #e4cac6;
+}
+
+a:visited {
+    -webkit-transition: color .2 ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    color: #ce988f;
+}
+
+a:hover:visited {
+    -webkit-transition: color .2 ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    color: #e5b7af;
+}
+
+p {
+    display: inline-block;
+    position: relative;
+    bottom: -3px;
+    left: 200px;
+    text-align: left;
+}
+
+/* bottom: 29px; without spotify playlist link */
